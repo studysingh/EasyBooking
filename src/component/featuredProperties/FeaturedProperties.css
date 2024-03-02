@@ -48,3 +48,12 @@
 .fpRating > span {
   font-size: 14px;
 }
+@media screen and (max-width: 450px) {
+  .fpContainer{
+    gap: 10px;
+  }
+  .fpImg {
+    width: 120%;
+    height: 140px;
+  }
+}

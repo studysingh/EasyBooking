@@ -11,11 +11,12 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .fList {
   list-style: none;
-  padding: 0;
+  padding: 1rem;
 }
 
 .fListItem {

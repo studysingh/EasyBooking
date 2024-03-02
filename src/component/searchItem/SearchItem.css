@@ -107,3 +107,12 @@
   cursor: pointer;
   border-radius: 5px;
 }
+@media screen and (max-width: 450px) {
+  .siImg {
+    height: 120px;
+    width: 100px;
+  }
+  .siDesc {
+    gap: 1px;
+  }
+}

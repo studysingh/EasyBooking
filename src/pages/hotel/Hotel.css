@@ -149,3 +149,8 @@
   color: lightgray;
   cursor: pointer;
 }
+@media screen and (max-width: 450px) {
+  .hotelDetails {
+    flex-direction: column;
+  }
+}

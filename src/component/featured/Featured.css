@@ -28,3 +28,12 @@
   bottom: 20px;
   left: 20px;
 }
+@media screen and (max-width: 450px) {
+  .featuredContainer {
+    gap: 2px;
+  }
+  .featuredItem {
+    height: 150px;
+    margin: 0px;
+  }
+}

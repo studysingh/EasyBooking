@@ -81,3 +81,11 @@
 .listResult {
   flex: 3;
 }
+@media screen and (max-width: 450px) {
+  .listWrapper {
+    flex-direction: column;
+  }
+  .listSearch {
+    position: relative;
+  }
+}

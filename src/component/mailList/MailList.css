@@ -29,3 +29,13 @@
   cursor: pointer;
   padding: 0px 4px;
 }
+@media screen and (max-width: 450px) {
+  .mailInputContainer {
+    text-align: center;
+  }
+  .mailInputContainer > button {
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}

@@ -33,3 +33,14 @@
   font-size: 14px;
   font-weight: 300;
 }
+@media screen and (max-width: 450px) {
+  .pl {
+    justify-content: left;
+  }
+  .plItem {
+    flex-basis: 28%;
+  }
+  .plImg {
+    height: 140px;
+  }
+}

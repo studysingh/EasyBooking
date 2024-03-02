@@ -133,3 +133,8 @@
   flex-direction: row;
   align-items: center;
 }
+@media screen and (max-width: 450px) {
+  .headerList {
+    gap: 20px;
+  }
+}
