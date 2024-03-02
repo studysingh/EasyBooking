@@ -62,7 +62,7 @@ const Header = ({ type }) => {
 
   // handling
   const handleSearchButton = () => {
-    navigate("/reservation/list", {
+    navigate("/EasyBooking/list", {
       state: { searchLocation, date, requirement },
     });
   };

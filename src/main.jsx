@@ -8,19 +8,19 @@ import List from "./pages/list/List.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/reservation",
+    path: "/EasyBooking",
     element: <App />,
     children: [
-      { path: "/reservation/home", element: <Home /> },
-      { path: "/reservation", element: <Home /> },
-      { path: "/reservation/hotel", element: <Hotel /> },
-      { path: "/reservation/list", element: <List /> },
+      { path: "/EasyBooking/home", element: <Home /> },
+      { path: "/EasyBooking", element: <Home /> },
+      { path: "/EasyBooking/hotel", element: <Hotel /> },
+      { path: "/EasyBooking/list", element: <List /> },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider basename={"/reservation"} router={router} />
+    <RouterProvider basename={"/EasyBooking"} router={router} />
   </React.StrictMode>
 );

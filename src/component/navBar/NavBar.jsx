@@ -9,7 +9,7 @@ const NavBar = () => {
         <span
           className="logo"
           onClick={() => {
-            navigate("/reservation");
+            navigate("/EasyBooking");
           }}
         >
           EasyBooking
